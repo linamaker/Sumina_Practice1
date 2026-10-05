@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ягами Лайт — Новый Бог | Портфолио</title>
+    <meta name="description" content="Портфолио-резюме Ягами Лайта — студента, гения, вершителя судеб. Опыт, образование, навыки, проекты." />
+
+    <!-- Шрифты Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Внешний CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <div class="logo" id="logoTrigger" title="Нажми, чтобы услышать истину">
+                <span class="logo__strike">Y.L</span>
+                <span class="logo__light">.</span>
+            </div>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav" id="navMenu">
+                <a href="#hero" class="nav__link nav__link--active">Главная</a>
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#experience" class="nav__link">Опыт</a>
+                <a href="#education" class="nav__link">Образование</a>
+                <a href="#skills" class="nav__link">Навыки</a>
+                <a href="#projects" class="nav__link">Проекты</a>
+                <a href="#contact" class="nav__link">Связь</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== МОДАЛКА ЦИТАТЫ ===== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal__quote">Я — правосудие</div>
+            <div class="modal__sub">Справедливость не знает пощады</div>
+            <button class="modal__close" id="modalClose">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">
+                Я — <span class="highlight">НОВЫЙ БОГ</span>
+            </h1>
+            <p class="hero__sub">Справедливость восторжествует</p>
+            <div class="hero__typed-wrapper">
+                <div class="hero__typed" id="typedText">
+                    <span id="typedOutput"></span><span class="cursor" id="typedCursor">|</span>
+                </div>
+            </div>
+            <div class="hero__actions">
+                <a href="#contact" class="btn btn--primary">
+                    <i class="fas fa-paper-plane"></i> Связаться
+                </a>
+                <a href="#projects" class="btn btn--outline">
+                    <i class="fas fa-folder-open"></i> Мои проекты
+                </a>
+            </div>
+            <div class="hero__scroll-hint">
+                <span>Листай вниз</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__avatar">
+                    <div class="about__avatar-box">
+                        <img src="images/light.jpg" alt="Ягами Лайт" />
+                    </div>
+                </div>
+                <div class="about__text">
+                    <h2>Ягами Лайт</h2>
+                    <p class="about__role">Студент • Гений • Вершитель судеб</p>
+                    <p>
+                        Я взял на себя ответственность за очищение мира от зла. Моя цель —
+                        создать утопию, где нет места преступности. Только я способен вести
+                        человечество к свету.
+                    </p>
+                    <p><span class="text-accent">«Я стану богом нового мира»</span></p>
+                    <div class="about__stats">
+                        <div class="about__stat">
+                            <span class="about__stat-number">0</span>
+                            <span class="about__stat-label">Преступников <br />(в идеальном мире)</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">∞</span>
+                            <span class="about__stat-label">Справедливость</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">1</span>
+                            <span class="about__stat-label">Бог</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE (Опыт работы) ===== -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title section-title--center">Опыт работы</h2>
+            <div class="timeline">
+
+                <div class="timeline__item fade-up">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">2024 — наст. время</span>
+                        <h3 class="timeline__title">Вершитель судеб (Кира)</h3>
+                        <p class="timeline__company">Самозанятый • Токио, Япония</p>
+                        <p class="timeline__desc">
+                            Очищение мира от преступности. Управление глобальной
+                            справедливостью. Разработка системы наказаний.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline__item fade-up">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">2023 — 2024</span>
+                        <h3 class="timeline__title">Студент-исследователь</h3>
+                        <p class="timeline__company">Университет Тоо • Токио</p>
+                        <p class="timeline__desc">
+                            Изучение криминологии и права. Анализ судебных систем мира.
+                            Подготовка к роли вершителя судеб.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline__item fade-up">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">2022 — 2023</span>
+                        <h3 class="timeline__title">Помощник детектива (стажировка)</h3>
+                        <p class="timeline__company">Полиция Токио • Токио</p>
+                        <p class="timeline__desc">
+                            Участие в расследованиях. Изучение методов работы
+                            детективов. Первое знакомство с L.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION (Образование) ===== -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title section-title--center">Образование</h2>
+            <div class="education__grid">
+
+                <div class="education__card fade-up">
+                    <div class="education__icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span class="education__date">2023 — 2027</span>
+                    <h3 class="education__title">Бакалавриат, Юриспруденция</h3>
+                    <p class="education__place">Университет Тоо, Токио</p>
+                    <p class="education__desc">
+                        Лучший студент курса. Специализация — уголовное право
+                        и криминология.
+                    </p>
+                </div>
+
+                <div class="education__card fade-up">
+                    <div class="education__icon"><i class="fas fa-school"></i></div>
+                    <span class="education__date">2020 — 2023</span>
+                    <h3 class="education__title">Средняя школа</h3>
+                    <p class="education__place">Престижная академия, Токио</p>
+                    <p class="education__desc">
+                        Абсолютный отличник. Победитель национальных олимпиад
+                        по математике и праву.
+                    </p>
+                </div>
+
+                <div class="education__card fade-up">
+                    <div class="education__icon"><i class="fas fa-book"></i></div>
+                    <span class="education__date">Постоянно</span>
+                    <h3 class="education__title">Самообразование</h3>
+                    <p class="education__place">Криминология, психология, право</p>
+                    <p class="education__desc">
+                        Изучение трудов по философии права, психологии
+                        преступников и судебных систем.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS (Навыки) ===== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title section-title--center">Навыки</h2>
+            <div class="skills__wrapper">
+
+                <div class="skills__group fade-up">
+                    <h3 class="skills__group-title"><i class="fas fa-brain"></i> Аналитические</h3>
+                    <div class="skills__list">
+                        <div class="skill">
+                            <div class="skill__head"><span>Дедукция</span><span>98%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="98"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__head"><span>Стратегическое планирование</span><span>95%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="95"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__head"><span>Психология</span><span>92%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="92"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__group fade-up">
+                    <h3 class="skills__group-title"><i class="fas fa-gavel"></i> Профессиональные</h3>
+                    <div class="skills__list">
+                        <div class="skill">
+                            <div class="skill__head"><span>Юриспруденция</span><span>90%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__head"><span>Криминология</span><span>88%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="88"></div></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__head"><span>Ведение расследований</span><span>85%</span></div>
+                            <div class="skill__bar"><div class="skill__fill" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__group fade-up">
+                    <h3 class="skills__group-title"><i class="fas fa-users"></i> Личностные</h3>
+                    <div class="skills__tags">
+                        <span class="tag">Лидерство</span>
+                        <span class="tag">Целеустремлённость</span>
+                        <span class="tag">Хладнокровие</span>
+                        <span class="tag">Харизма</span>
+                        <span class="tag">Упорство</span>
+                        <span class="tag">Самодисциплина</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title section-title--center">Проекты и дела</h2>
+            <div class="projects__grid">
+
+                <div class="projects__item projects__item--red-glow fade-up" data-modal="modal1">
+                    <div class="projects__item-content">
+                        <div class="projects__item-number">Дело №1</div>
+                        <div class="projects__item-title">Устранение мирового криминала</div>
+                        <div class="projects__item-desc">Первая волна — тысячи имен</div>
+                    </div>
+                </div>
+
+                <div class="projects__item projects__item--red-glow fade-up" data-modal="modal2">
+                    <div class="projects__item-content">
+                        <div class="projects__item-number">Дело №2</div>
+                        <div class="projects__item-title">Разоблачение L</div>
+                        <div class="projects__item-desc">Победа над величайшим детективом</div>
+                    </div>
+                </div>
+
+                <div class="projects__item projects__item--red-glow fade-up" data-modal="modal3">
+                    <div class="projects__item-content">
+                        <div class="projects__item-number">Дело №3</div>
+                        <div class="projects__item-title">Новый мировой порядок</div>
+                        <div class="projects__item-desc">Создание утопии под моим началом</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== МОДАЛЬНЫЕ ОКНА ПРОЕКТОВ ===== -->
+    <div class="modal-project" id="modal1">
+        <div class="modal-project__content">
+            <button class="modal-project__close">&times;</button>
+            <div class="red-threads">
+                <div class="thread"></div><div class="thread"></div><div class="thread"></div>
+                <div class="thread"></div><div class="thread"></div>
+            </div>
+            <h2>Дело №1: Устранение мирового криминала</h2>
+            <p>
+                Первая масштабная акция Киры. За считанные недели были устранены тысячи
+                преступников по всему миру. Мир впервые увидел, что такое настоящая
+                справедливость. Никто не ушёл от возмездия.
+            </p>
+            <img src="images/delo1.jpg" alt="Дело 1" class="modal-img" />
+        </div>
+    </div>
+
+    <div class="modal-project" id="modal2">
+        <div class="modal-project__content">
+            <button class="modal-project__close">&times;</button>
+            <div class="red-threads">
+                <div class="thread"></div><div class="thread"></div><div class="thread"></div>
+                <div class="thread"></div><div class="thread"></div>
+            </div>
+            <h2>Дело №2: Разоблачение L</h2>
+            <p>
+                Мой главный противник — величайший детектив мира L — пал от моей руки.
+                Я перехитрил его, заставил поверить в мою невиновность и нанёс
+                смертельный удар. Теперь никто не сможет остановить меня.
+            </p>
+            <img src="images/delo2.jpg" alt="Дело 2" class="modal-img" />
+        </div>
+    </div>
+
+    <div class="modal-project" id="modal3">
+        <div class="modal-project__content">
+            <button class="modal-project__close">&times;</button>
+            <div class="red-threads">
+                <div class="thread"></div><div class="thread"></div><div class="thread"></div>
+                <div class="thread"></div><div class="thread"></div>
+            </div>
+            <h2>Дело №3: Новый мировой порядок</h2>
+            <p>
+                С устранением всех угроз я приступаю к финальной стадии — созданию
+                утопического общества. Мои законы станут единственными. Мир будет
+                очищен, а я буду править как бог.
+            </p>
+            <img src="images/delo3.jpg" alt="Дело 3" class="modal-img" />
+        </div>
+    </div>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title section-title--center">Связь</h2>
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <h3>Только для избранных</h3>
+                    <p>
+                        Если ты разделяешь мои идеалы и готов стать частью нового мира,
+                        оставь сообщение. Я читаю каждое послание.
+                    </p>
+                    <ul class="contact__list">
+                        <li><i class="fas fa-envelope"></i> light.yagami@kira.jp</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Токио, Япония</li>
+                        <li><i class="fab fa-telegram"></i> @newgod_kira</li>
+                    </ul>
+                    <span class="warning"><i class="fas fa-skull"></i> &nbsp;Только для избранных</span>
+                </div>
+
+                <form class="contact__form" id="contactForm" novalidate>
+                    <div class="contact__form-group">
+                        <label for="formName">Имя</label>
+                        <input type="text" id="formName" placeholder="Ваше имя" required />
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="formEmail">Email</label>
+                        <input type="email" id="formEmail" placeholder="Ваш email" required />
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="formMessage">Сообщение</label>
+                        <textarea id="formMessage" placeholder="Ваше послание..." required></textarea>
+                    </div>
+                    <button type="submit" class="contact__form-submit">
+                        Отправить жалобу / предложение
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__socials">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            </div>
+
+            <p class="footer__text">
+                &copy; 2026 <span class="red">Ягами Лайт</span> — Новый Бог
+            </p>
+            <p class="footer__warning">
+                <i class="fas fa-eye"></i> &nbsp;Только для избранных
+            </p>
+
+            <div class="footer__info">
+                <p><strong>AI-помощник:</strong> Deepseek — генерация структуры сайта, текстов и базовой вёрстки.</p>
+                <p><strong>Время выполнения:</strong> ~2 часа.</p>
+                <p><strong>JavaScript-функционал:</strong> эффект печатной машинки, плавный скролл, активная навигация при скролле, анимация появления секций (fade-up), модальные окна проектов, модалка по клику на логотип, валидация формы обратной связи, мобильное бургер-меню, анимированные прогресс-бары навыков.</p>
+                <p><strong>Подробнее:</strong> см. файл <a href="README.md">README.md</a> в репозитории.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Внешний JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
